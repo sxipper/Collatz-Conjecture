@@ -6,17 +6,13 @@ while($num -ne 1)
 {
     if(($num % 2) -eq 0) 
     {
-        #$num
         $num = $num / 2
         $num
-        #sleep 3
     }
     elseif (($num % 2) -eq 1)
-    {
-        #$num 
+    { 
         $num = 3*$num+1
         $num
-        #sleep 3
     }
     else
     {
